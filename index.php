@@ -24,6 +24,16 @@
                 <td onclick="inputPlayer(9)"><div id="vakje9"></div></td>
             </tr>
         </table>
+        <form action="contact.php" action="GET">
+            <input type="text" name="aantalBeurten" id="aantalBeurtenBijhouder">
+            <br><br>Vul hier je naam in:<br>
+            <input type="text" name="naamSpeler" id="NaamSpeler">
+            <input type="submit">
+        </form>
+        
+        <input type="button" onclick="directeVerwijzing()">
+        
+        
         
     </body>
 </html>
