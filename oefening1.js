@@ -4,9 +4,22 @@ function inputPlayer(vakjeNummer){
     console.log(vakje);
     if(vakje.innerHTML == 'X'){
         vakje.innerHTML = 'O';
-    vakje.style = "background-color:green";
+        vakje.style = "background-color:green";
     }else{
         vakje.innerHTML = 'X';
-    vakje.style = "background-color:red";
+        vakje.style = "background-color:red";
     }
+    checkIfIsWinner();
+}
+
+
+function checkIfIsWinner(){
+    var symbolVakje1 = document.getElementById('vakje1').innerHTML;
+    var symbolVakje2 = document.getElementById('vakje2').innerHTML;
+    var symbolVakje3 = document.getElementById('vakje3').innerHTML;
+ 
+    if(symbolVakje1 == symbolVakje2 && symbolVakje2 == symbolVakje3){
+        alert();
+    }
+    
 }
