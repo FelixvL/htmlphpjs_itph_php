@@ -7,7 +7,7 @@
         <script src="oefening1.js"></script>
     </head>
     <body>
-        <table border=1>
+        <table>
             <tr>
                 <td onclick="inputPlayer(1)"><div id="vakje1"></div></td>
                 <td onclick="inputPlayer(2)"><div id="vakje2"></div></td>
