@@ -1,0 +1,13 @@
+p.boot{
+    background-color:red;
+    
+}
+p span{
+    color:orange;
+}
+div, a{
+     font-size:21px;
+}
+input[type=button]{
+    background-color: green;
+} 
